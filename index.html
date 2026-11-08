@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ayu.dev — Portfolio personal website for a web developer showcasing projects, skills, experience, and contact information."
+    />
+    <meta property="og:title" content="Ayu.dev | Full-Stack Developer" />
+    <meta
+      property="og:description"
+      content="Portofolio personal Ayu: full-stack developer, product thinker, dan problem solver."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#0f172a" />
+    <title>Ayu.dev | Full-Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container nav-wrap">
+          <a href="#home" class="brand" aria-label="Ayu.dev home">Ayu<span>.dev</span></a>
+          <nav class="main-nav" aria-label="Main navigation">
+            <a href="#about">Tentang</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Proyek</a>
+            <a href="#experience">Pengalaman</a>
+            <a href="#contact">Kontak</a>
+          </nav>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+            <span class="toggle-icon">🌙</span>
+          </button>
+        </div>
+      </header>
+
+      <main>
+        <section id="home" class="hero section">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow">Halo, saya Ayu 👋</p>
+              <h1>
+                Full-Stack Developer yang membangun
+                <span>produk digital yang terasa nyata.</span>
+              </h1>
+              <p class="lead">
+                Saya membantu bisnis dan startup mengubah ide menjadi aplikasi web yang cepat,
+                aman, dan mudah digunakan.
+              </p>
+              <div class="cta-row">
+                <a href="#projects" class="btn btn-primary">Lihat Proyek</a>
+                <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+              </div>
+              <div class="socials" aria-label="Social media links">
+                <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a href="mailto:hello@ayu.dev">Email</a>
+              </div>
+            </div>
+
+            <div class="hero-visual" aria-label="Developer profile highlights">
+              <div class="profile-card main-card">
+                <div class="avatar-wrap">
+                  <img
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80"
+                    alt="Portrait of Ayu"
+                  />
+                </div>
+                <div class="status-badge">
+                  <span class="dot"></span>
+                  Available for freelance work
+                </div>
+                <div class="mini-stats">
+                  <div>
+                    <strong>5+</strong>
+                    <span>Tahun pengalaman</span>
+                  </div>
+                  <div>
+                    <strong>18</strong>
+                    <span>Proyek selesai</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="section about">
+          <div class="container section-heading">
+            <p class="eyebrow">Tentang Saya</p>
+            <h2>Developer dengan fokus pada pengalaman pengguna & kualitas produk.</h2>
+          </div>
+          <div class="container about-grid">
+            <div class="about-visual">
+              <div class="photo-card">
+                <img
+                  src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80"
+                  alt="Ayu working on a laptop"
+                />
+              </div>
+            </div>
+            <div class="about-content">
+              <p>
+                Saya adalah seorang web developer yang menyukai tantangan dari ide sampai produk jadi.
+                Saya percaya bahwa software yang baik bukan hanya fungsional, tetapi juga nyaman,
+                cepat, dan jelas untuk user.
+              </p>
+              <p>
+                Saat ini saya fokus pada pembangunan aplikasi web modern dengan React, Next.js,
+                Node.js, dan database yang scalable. Saya sering bekerja di lintas fungsi — dari
+                strategi UX, slicing UI, API integration, sampai deployment dan maintainance.
+              </p>
+              <div class="about-highlights">
+                <div>
+                  <strong>UI/UX</strong>
+                  <span>Design system & user-centric interface</span>
+                </div>
+                <div>
+                  <strong>Product</strong>
+                  <span>Solusi nyata untuk kebutuhan bisnis</span>
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary" aria-label="Download resume">Download Resume (PDF)</a>
+            </div>
+          </div>
+        </section>
+
+        <section id="skills" class="section skills">
+          <div class="container section-heading">
+            <p class="eyebrow">Tech Stack</p>
+            <h2>Keahlian yang saya kuasai.</h2>
+          </div>
+          <div class="container skills-grid">
+            <div class="skill-card">
+              <h3>Frontend</h3>
+              <div class="tags">
+                <span>React</span>
+                <span>Next.js</span>
+                <span>TypeScript</span>
+                <span>Tailwind</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+              </div>
+            </div>
+            <div class="skill-card">
+              <h3>Backend</h3>
+              <div class="tags">
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>REST API</span>
+                <span>JWT</span>
+                <span>Socket.IO</span>
+              </div>
+            </div>
+            <div class="skill-card">
+              <h3>Database</h3>
+              <div class="tags">
+                <span>PostgreSQL</span>
+                <span>MongoDB</span>
+                <span>Redis</span>
+                <span>Prisma</span>
+              </div>
+            </div>
+            <div class="skill-card">
+              <h3>Tools</h3>
+              <div class="tags">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>Figma</span>
+                <span>Vercel</span>
+                <span>Docker</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="section projects">
+          <div class="container section-heading">
+            <p class="eyebrow">Projects</p>
+            <h2>Beberapa karya terbaik yang pernah saya bangun.</h2>
+          </div>
+          <div class="container projects-grid">
+            <article class="project-card">
+              <div class="project-thumb thumb-one" aria-hidden="true"></div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span class="pill">E-commerce</span>
+                  <span class="year">2025</span>
+                </div>
+                <h3>UrbanCart Dashboard</h3>
+                <p>
+                  Platform dashboard penjualan modern untuk memantau katalog, pesanan, dan analitik bisnis.
+                </p>
+                <div class="tags small">
+                  <span>React</span>
+                  <span>Node.js</span>
+                  <span>PostgreSQL</span>
+                </div>
+                <div class="card-actions">
+                  <a href="#" class="text-link" aria-label="View live demo for UrbanCart Dashboard">Live Demo</a>
+                  <a href="#" class="text-link" aria-label="View GitHub repo for UrbanCart Dashboard">GitHub Repo</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-thumb thumb-two" aria-hidden="true"></div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span class="pill">Community</span>
+                  <span class="year">2024</span>
+                </div>
+                <h3>ForumBela</h3>
+                <p>
+                  Aplikasi komunitas diskusi berbasis topik yang membantu pengguna berbagi insight dan belajar bersama.
+                </p>
+                <div class="tags small">
+                  <span>Next.js</span>
+                  <span>MongoDB</span>
+                  <span>Tailwind</span>
+                </div>
+                <div class="card-actions">
+                  <a href="#" class="text-link" aria-label="View live demo for ForumBela">Live Demo</a>
+                  <a href="#" class="text-link" aria-label="View GitHub repo for ForumBela">GitHub Repo</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-thumb thumb-three" aria-hidden="true"></div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span class="pill">Fintech</span>
+                  <span class="year">2023</span>
+                </div>
+                <h3>Cashflow Tracker</h3>
+                <p>
+                  Dashboard pengelolaan cashflow pribadi yang memudahkan user melacak pemasukan, pengeluaran, dan target keuangan.
+                </p>
+                <div class="tags small">
+                  <span>TypeScript</span>
+                  <span>Express</span>
+                  <span>Redis</span>
+                </div>
+                <div class="card-actions">
+                  <a href="#" class="text-link" aria-label="View live demo for Cashflow Tracker">Live Demo</a>
+                  <a href="#" class="text-link" aria-label="View GitHub repo for Cashflow Tracker">GitHub Repo</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="experience" class="section experience">
+          <div class="container section-heading">
+            <p class="eyebrow">Experience</p>
+            <h2>Riwayat kerja & pendidikan.</h2>
+          </div>
+          <div class="container timeline-grid">
+            <div class="timeline-card">
+              <h3>Pengalaman Kerja</h3>
+              <ul class="timeline">
+                <li>
+                  <span class="time">2024 — Sekarang</span>
+                  <div>
+                    <strong>Web Developer</strong>
+                    <p>Merancang dan membangun aplikasi web untuk kebutuhan internal dan client startup.</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="time">2022 — 2024</span>
+                  <div>
+                    <strong>Frontend Developer</strong>
+                    <p>Mengembangkan interface yang responsif, accessible, dan konsisten dengan design system.</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="time">2021 — 2022</span>
+                  <div>
+                    <strong>Junior Web Developer</strong>
+                    <p>Menangani implementasi landing page, fitur CRUD, dan integrasi API.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="timeline-card">
+              <h3>Pendidikan & Sertifikasi</h3>
+              <ul class="timeline">
+                <li>
+                  <span class="time">2020</span>
+                  <div>
+                    <strong>S1 Informatika</strong>
+                    <p>Fokus pada software engineering dan sistem informasi.</p>
+                  </div>
+                </li>
+                <li>
+                  <span class="time">2023</span>
+                  <div>
+                    <strong>Google Cloud / Web Dev Course</strong>
+                    <p>Belajar deployment, scalable architecture, dan product mindset.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="section contact">
+          <div class="container contact-grid">
+            <div class="contact-copy">
+              <p class="eyebrow">Kontak</p>
+              <h2>Siap kolaborasi atau proyek baru?</h2>
+              <p>
+                Saya terbuka untuk peluang kerja, magang, freelance, atau kolaborasi produk digital.
+                Kirim pesan dan saya akan membalas secepat mungkin.
+              </p>
+              <div class="contact-list">
+                <span>Email: hello@ayu.dev</span>
+                <span>Location: Indonesia</span>
+              </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+              <div class="field-group">
+                <label for="name">Nama</label>
+                <input id="name" name="name" type="text" placeholder="Nama lengkap" required />
+              </div>
+              <div class="field-group">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="nama@email.com" required />
+              </div>
+              <div class="field-group">
+                <label for="subject">Subjek</label>
+                <input id="subject" name="subject" type="text" placeholder="Mau kerja sama / proyek baru" required />
+              </div>
+              <div class="field-group">
+                <label for="message">Pesan</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tuliskan detail proyek atau kebutuhan Anda..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-wrap">
+          <p>© 2026 Ayu.dev. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="#about">Tentang</a>
+            <a href="#projects">Proyek</a>
+            <a href="#contact">Kontak</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
